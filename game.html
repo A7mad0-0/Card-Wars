@@ -15,6 +15,7 @@
     <!-- css links -->
     <link rel="stylesheet" href="./styles/BMO/bmo.css" />
     <link rel="stylesheet" href="./styles/BMO/game.css" />
+    <link rel="stylesheet" href="./styles/BMO/player-actions.css" />
   </head>
   <body>
     <div class="header-content">
@@ -41,57 +42,94 @@
 
       <div class="BMO-grid-cards-container">
         <div class="BMO-card">
-          <img class="card-img" src="/images/blue-land-cards/Axey.webp" />
-        </div>
-
-        <div class="BMO-card">
-          <img class="card-img" src="/images/blue-land-cards/Cool_Dog.webp" />
+          <img class="card-img-bmo" src="/images/blue-land-cards/Axey.webp" />
         </div>
 
         <div class="BMO-card">
           <img
-            class="card-img"
+            class="card-img-bmo"
+            src="/images/blue-land-cards/Cool_Dog.webp"
+          />
+        </div>
+
+        <div class="BMO-card">
+          <img
+            class="card-img-bmo"
             src="/images/blue-land-cards/Psionic_Architect.webp"
           />
         </div>
 
         <div class="BMO-card">
-          <img class="card-img" src="/images/blue-land-cards/Punk_Cat.webp" />
+          <img
+            class="card-img-bmo"
+            src="/images/blue-land-cards/Punk_Cat.webp"
+          />
         </div>
       </div>
 
       <!--player cards container-->
       <div class="player-grid-cards-container">
-        <div class="player-card">
+        <div class="player-cards">
           <img class="card-img" src="/images/Corn-land-cards/Archer_Dan.webp" />
         </div>
 
-        <div class="player-card">
+        <div class="player-cards">
           <img
             class="card-img"
             src="/images/Corn-land-cards/Captain_Taco.webp"
           />
         </div>
 
-        <div class="player-card">
+        <div class="player-cards">
           <img class="card-img" src="/images/Corn-land-cards/Corn_Dog.webp" />
         </div>
 
-        <div class="player-card">
+        <div class="player-cards">
           <img class="card-img" src="/images/Corn-land-cards/Corn_Ronin.webp" />
         </div>
       </div>
 
       <div class="player-actions-grid">
         <div class="actions-grid-left-section">
-          <span class="menu-txt"> <p>Score</p> </span>
-          <span class="menu-txt"> <p>Store</p> </span>
+          <div class="actions">
+            <span> <button class="menu-txt1">>Score</button> </span>
+            <span> <button class="menu-txt2">>Store</button> </span>
+            <span> <button class="menu-txt3">Auto Play</button> </span>
+          </div>
         </div>
+
         <div class="actions-grid-middle-section">
-          <h1>hello word</h1>
+          <div class="melds">
+            <div class="meld">
+              <img
+                class="meld-img"
+                src="./images/Corn-land-cards/Ethan_Allfire.webp"
+              />
+            </div>
+            <div class="meld">
+              <img
+                class="meld-img"
+                src="./images/Corn-land-cards/Huskerbat.webp"
+              />
+            </div>
+            <div class="meld">
+              <img
+                class="meld-img"
+                src="./images/Corn-land-cards/Patchy_the_Pumpkin.webp"
+              />
+            </div>
+            <div class="meld">
+              <img
+                class="meld-img"
+                src="./images/Corn-land-cards/Husker_Knight.webp"
+              />
+            </div>
+          </div>
         </div>
         <div class="actions-grid-rigth-section">
-          <h2>fuck you</h2>
+          <div class="back-cards-container">
+            <img class="back-card-img" src="./images/card-image.png" />
+          </div>
         </div>
       </div>
     </div>

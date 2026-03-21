@@ -10,6 +10,8 @@ body {
   margin-right: auto;
 
   background-color: rgb(118, 236, 197);
+
+  border-radius: 10px;
 }
 
 .header-content {
