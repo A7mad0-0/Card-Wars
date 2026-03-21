@@ -3,28 +3,14 @@ body {
 }
 .BMO-face {
   max-width: 180vh;
-  height: 87vh;
+  height: 89vh;
 
-  padding-right: 30px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
 
   background-color: rgb(118, 236, 197);
 }
-
-/*
-.main {
-    max-width: 1100px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 140px;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-*/
 
 .header-content {
   background-color: cadetblue;
@@ -44,7 +30,7 @@ body {
 }
 .home-screen-link {
   font-family: "Press Start 2P", system-ui;
-
+  display: flex;
   color: black;
   text-decoration: none;
 }
@@ -60,6 +46,9 @@ body {
 
 .game-header-left-section {
   font-family: "Press Start 2P", system-ui;
+  display: flex;
+  justify-content: end;
+  align-items: end;
   width: 200px;
 }
 .BMO-smile {
@@ -67,42 +56,8 @@ body {
 }
 .game-header-right-section {
   font-family: "Press Start 2P", system-ui;
-  width: 200px;
-}
-
-.log {
-  padding-left: -10px;
   display: flex;
-  justify-content: start;
-  align-items: start;
-}
-.game-logo-img {
-  width: 15vh;
-}
-
-.BMO-grid-cards-container {
-  max-width: 100vh;
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-
-  grid-area: auto;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
-
-  gap: 5px;
-
-  margin-top: -65px;
-  border: 3px dashed rgb(69, 118, 138);
-  padding: 15px;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-.BMO-card {
-  border: 5px outset;
-  border-radius: 5px;
-}
-.card-img {
-  width: 175px;
+  width: 200px;
 }
