@@ -26,6 +26,7 @@ body {
   width: 300px;
   padding: 30px;
 }
+
 .start-txt {
   display: flex;
 
@@ -69,6 +70,6 @@ body {
   transition-duration: 500ms;
   color: brown;
 }
-.game-link {
+nav a {
   text-decoration: none;
 }

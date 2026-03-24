@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <!-- Font -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,15 +12,20 @@
     <link rel="stylesheet" href="./styles/title-Screan.css" />
     <title>Card Wars</title>
   </head>
+
   <body>
     <div class="menu-grid">
-      <div class="content-form">
-        <a href="game.html " class="game-link">
+      <nav class="content-form">
+
+        <a href="game.html ">
           <button class="start-txt">Start Game</button>
         </a>
 
-        <button class="quit-txt">Quit</button>
-      </div>
+        <a onclick="alert(`you can't quit the game`)"">
+          <button class="quit-txt">Quit</button>
+        </a>
+        
+      </nav>
     </div>
   </body>
 </html>

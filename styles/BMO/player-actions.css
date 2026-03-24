@@ -46,6 +46,7 @@
 
   cursor: pointer;
 }
+
 .menu-txt2 {
   width: 10vh;
   font-family: "Press Start 2P", system-ui;
@@ -83,7 +84,7 @@
 }
 
 .meld {
-  border: 5px ridge gold;
+  border: 5px ridge #ffd700;
 
   flex: 0 1 calc(25% - 15%);
   aspect-ratio: 3/4;
@@ -113,6 +114,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.back-cards-container:hover {
+  transform: translateY(-15px);
 }
 .back-card-img {
   width: 100%;
